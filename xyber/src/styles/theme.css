@@ -1,0 +1,43 @@
+:root {
+  --red: #D1122E;
+  --dark-red: #9F0F22;
+
+  --bg-main: #0B0B0D;
+  --bg-secondary: #141418;
+  --bg-card: #1C1C22;
+
+  --text-primary: #F5F5F7;
+  --text-secondary: #B3B3BD;
+  --text-muted: #7A7A85;
+
+  --success: #2ECC71;
+  --error: #E74C3C;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #141418, #0B0B0D 60%);
+  color: var(--text-primary);
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont;
+  letter-spacing: 0.2px;
+}
+
+button {
+  font-family: inherit;
+}
+
+h1 {
+  font-size: clamp(28px, 5vw, 42px);
+}
+
+h2 {
+  font-size: clamp(22px, 4vw, 32px);
+}
+
+h3 {
+  font-size: 18px;
+}
