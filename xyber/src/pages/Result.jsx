@@ -17,7 +17,7 @@ export default function Result() {
         {state.score} / 15
       </h2>
 
-      {percentage >= 90 && (
+      {percentage >= 70 && (
         <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
